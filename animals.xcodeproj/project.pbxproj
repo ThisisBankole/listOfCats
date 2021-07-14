@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE76099A269C342C006180FA /* catItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE760999269C342C006180FA /* catItem.swift */; };
+		CE76099C269C3573006180FA /* catListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76099B269C3573006180FA /* catListModel.swift */; };
+		CE76099E269C4AF4006180FA /* catstore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76099D269C4AF4006180FA /* catstore.swift */; };
+		CE7609A0269C6394006180FA /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76099F269C6394006180FA /* homeView.swift */; };
+		CE7609A2269EFF2F006180FA /* favoriteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7609A1269EFF2F006180FA /* favoriteStore.swift */; };
+		CE7609A6269F220E006180FA /* faView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7609A5269F220E006180FA /* faView.swift */; };
+		CE7609A8269F27BA006180FA /* gridFav.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7609A7269F27BA006180FA /* gridFav.swift */; };
 		CEC3F257269B6E6B00B8B197 /* animalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3F256269B6E6B00B8B197 /* animalsApp.swift */; };
 		CEC3F259269B6E6B00B8B197 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3F258269B6E6B00B8B197 /* ContentView.swift */; };
 		CEC3F25B269B6E6E00B8B197 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC3F25A269B6E6E00B8B197 /* Assets.xcassets */; };
@@ -14,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE760999269C342C006180FA /* catItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catItem.swift; sourceTree = "<group>"; };
+		CE76099B269C3573006180FA /* catListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catListModel.swift; sourceTree = "<group>"; };
+		CE76099D269C4AF4006180FA /* catstore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catstore.swift; sourceTree = "<group>"; };
+		CE76099F269C6394006180FA /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		CE7609A1269EFF2F006180FA /* favoriteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteStore.swift; sourceTree = "<group>"; };
+		CE7609A5269F220E006180FA /* faView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = faView.swift; sourceTree = "<group>"; };
+		CE7609A7269F27BA006180FA /* gridFav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gridFav.swift; sourceTree = "<group>"; };
 		CEC3F253269B6E6B00B8B197 /* animals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC3F256269B6E6B00B8B197 /* animalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animalsApp.swift; sourceTree = "<group>"; };
 		CEC3F258269B6E6B00B8B197 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +68,13 @@
 			children = (
 				CEC3F256269B6E6B00B8B197 /* animalsApp.swift */,
 				CEC3F258269B6E6B00B8B197 /* ContentView.swift */,
+				CE7609A5269F220E006180FA /* faView.swift */,
+				CE7609A7269F27BA006180FA /* gridFav.swift */,
+				CE76099F269C6394006180FA /* homeView.swift */,
+				CE760999269C342C006180FA /* catItem.swift */,
+				CE76099B269C3573006180FA /* catListModel.swift */,
+				CE76099D269C4AF4006180FA /* catstore.swift */,
+				CE7609A1269EFF2F006180FA /* favoriteStore.swift */,
 				CEC3F25A269B6E6E00B8B197 /* Assets.xcassets */,
 				CEC3F25F269B6E6E00B8B197 /* Info.plist */,
 				CEC3F25C269B6E6E00B8B197 /* Preview Content */,
@@ -138,7 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7609A0269C6394006180FA /* homeView.swift in Sources */,
+				CE7609A6269F220E006180FA /* faView.swift in Sources */,
+				CE7609A2269EFF2F006180FA /* favoriteStore.swift in Sources */,
+				CE7609A8269F27BA006180FA /* gridFav.swift in Sources */,
 				CEC3F259269B6E6B00B8B197 /* ContentView.swift in Sources */,
+				CE76099A269C342C006180FA /* catItem.swift in Sources */,
+				CE76099C269C3573006180FA /* catListModel.swift in Sources */,
+				CE76099E269C4AF4006180FA /* catstore.swift in Sources */,
 				CEC3F257269B6E6B00B8B197 /* animalsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
